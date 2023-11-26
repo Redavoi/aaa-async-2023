@@ -2,4 +2,4 @@ init:
 	poetry install
 
 test:
-	pytest -sv homework/tests
+	poetry run pytest -sv homework/tests
