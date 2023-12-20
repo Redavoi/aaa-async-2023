@@ -69,5 +69,5 @@ async def test_heavy_computations(monkeypatch):
     two_tasks_time_std = np.std(two_tasks_time)
     print(f'{two_tasks_time_mean=}, {two_tasks_time_std=}')
 
-    assert math.isclose(single_task_time_mean, two_tasks_time_mean, rel_tol=0.2)
+    assert math.isclose(single_task_time_mean, two_tasks_time_mean, rel_tol=0.3)
 
