@@ -1,7 +1,9 @@
 # aaa-async-2023-public
 
 ## Настройка окружения
-`make install`
+
+`make init`
 
 ## Запуск тестов
+
 `make test`
